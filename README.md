@@ -86,6 +86,17 @@ The system is divided into modular components, each with a specific responsibili
     Emma Thompson
     Michael Johnson, 19/12/2022
    ```
+
+---
+
+## Design Rationale
+
+**Binary Search Tree (BST):** Enables efficient insertion, deletion, and retrieval of patients and care team members.
+**Modular Design:** Ensures clean separation of concerns, making the code easy to maintain and extend.
+**Unique Keys:** Patients are identified by a unique key based on their visit date (YYYYMMDD), ensuring proper sorting and ordering.
+
+---
+
 ## How to Run
 
 1. **Clone this repository:**
@@ -95,11 +106,7 @@ The system is divided into modular components, each with a specific responsibili
 2. **Compile all Java files**
 3. **Run The Tester Class**
 
-## Design Rationale
 
-**Binary Search Tree (BST):** Enables efficient insertion, deletion, and retrieval of patients and care team members.
-**Modular Design:** Ensures clean separation of concerns, making the code easy to maintain and extend.
-**Unique Keys:** Patients are identified by a unique key based on their visit date (YYYYMMDD), ensuring proper sorting and ordering.
 
 
    
